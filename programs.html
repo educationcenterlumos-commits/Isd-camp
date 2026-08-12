@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0A1628">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description"
+        content="Explore ISD Campus programs and qualifications — understand SLQF, NVQ, and international frameworks. Discover disciplines in Engineering, Computing, Law, Psychology, Business, and Education.">
+    <title>Programs & Qualifications — ISD Campus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar__logo">
+                <img src="images/logo_shield_clean.png" alt="ISD Campus Shield" class="logo-shield-img">
+                <div class="logo-text-group">
+                    <span class="logo-title">ISD CAMPUS</span>
+                    <span class="logo-slogan">CERTIFICATIONS &bull; HND &bull; DEGREES</span>
+                </div>
+            </a>
+            <div class="navbar__links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="navbar__cta">Get Started</a>
+            </div>
+            <button class="navbar__hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero hero--page" id="programs-hero">
+        <div class="hero__decor hero__decor--1"></div>
+        <div class="hero__decor hero__decor--2"></div>
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge">
+                    <i class="fas fa-book"></i>
+                    Programs &amp; Qualifications
+                </div>
+                <h1 class="hero__title">
+                    Understand <span class="highlight">Qualification Levels</span> &amp; Frameworks
+                </h1>
+                <p class="hero__description">
+                    Educational qualifications are structured through national and international frameworks that define
+                    learning outcomes, academic standards, and progression pathways.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualification Levels — Tabs -->
+    <section class="section section--dark" id="qualifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Understanding <span class="gold-text">Qualification Levels</span></h2>
+                <p>Explore the frameworks that standardize and validate educational qualifications across Sri Lanka and
+                    internationally.</p>
+            </div>
+            <div class="tabs">
+                <div class="tabs__header">
+                    <button class="tabs__btn active" data-tab="tab-slqf" id="tab-btn-slqf">SLQF</button>
+                    <button class="tabs__btn" data-tab="tab-nvq" id="tab-btn-nvq">NVQ</button>
+                    <button class="tabs__btn" data-tab="tab-international" id="tab-btn-intl">International</button>
+                </div>
+                <div class="tabs__content active" id="tab-slqf">
+                    <div class="tabs__content-inner">
+                        <h4><i class="fas fa-flag" style="color: var(--accent-gold); margin-right: 10px;"></i>Sri Lanka
+                            Qualifications Framework (SLQF)</h4>
+                        <p>A nationally recognized framework that standardizes higher education qualifications from
+                            certificate level to doctoral studies. The SLQF defines the expected learning outcomes,
+                            credit requirements, and academic standards for each qualification level, ensuring
+                            consistency and quality across Sri Lankan higher education institutions.</p>
+                    </div>
+                </div>
+                <div class="tabs__content" id="tab-nvq">
+                    <div class="tabs__content-inner">
+                        <h4><i class="fas fa-tools"
+                                style="color: var(--accent-blue-light); margin-right: 10px;"></i>National Vocational
+                            Qualification (NVQ)</h4>
+                        <p>A competency-based qualification system designed to support vocational and technical
+                            education pathways. NVQ qualifications are structured across multiple levels, from basic
+                            operational skills to advanced professional competencies, providing flexible progression
+                            routes for students pursuing technical and practical career paths.</p>
+                    </div>
+                </div>
+                <div class="tabs__content" id="tab-international">
+                    <div class="tabs__content-inner">
+                        <h4><i class="fas fa-globe"
+                                style="color: var(--accent-gold); margin-right: 10px;"></i>International Frameworks</h4>
+                        <p>Explore qualification structures from the United Kingdom and other globally recognized
+                            education systems. International frameworks such as the UK's Regulated Qualifications
+                            Framework (RQF) and the European Qualifications Framework (EQF) provide standardized
+                            benchmarks for comparing qualifications across borders, facilitating international mobility
+                            and recognition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Disciplines -->
+    <section class="section section--navy" id="disciplines">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Your <span class="gold-text">Future Career Path</span></h2>
+                <p>Discover academic disciplines that align with your passion and professional ambitions.</p>
+            </div>
+            <div class="discipline-grid stagger-children">
+                <!-- Engineering -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/engineering.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Engineering & Technology</h3>
+                        <p class="discipline-card__tagline">Building the Future Through Innovation</p>
+                        <p class="discipline-card__description">Engineering and technology qualifications emphasize
+                            technical excellence, practical application, and professional accreditation. Explore
+                            pathways in mechanical, electrical, civil, and emerging technology fields.</p>
+                    </div>
+                </div>
+                <!-- Computing -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/computing.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Computing & Software</h3>
+                        <p class="discipline-card__tagline">Transforming Ideas into Digital Solutions</p>
+                        <p class="discipline-card__description">Explore qualifications in software engineering, computer
+                            science, cybersecurity, and information technology while understanding industry-recognized
+                            accreditation and global career opportunities.</p>
+                    </div>
+                </div>
+                <!-- Law -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/law.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-scale-balanced"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Law & Legal Studies</h3>
+                        <p class="discipline-card__tagline">Shaping Justice and Leadership</p>
+                        <p class="discipline-card__description">Legal education develops critical thinking, advocacy
+                            skills, and professional competence. Explore pathways to professional legal practice and
+                            academic specialization.</p>
+                    </div>
+                </div>
+                <!-- Psychology -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/psychology.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Psychology</h3>
+                        <p class="discipline-card__tagline">Understanding Minds, Improving Lives</p>
+                        <p class="discipline-card__description">Explore educational pathways in psychology, counseling,
+                            and clinical practice while learning about professional requirements and accreditation
+                            standards.</p>
+                    </div>
+                </div>
+                <!-- Business -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/business.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Business & Management</h3>
+                        <p class="discipline-card__tagline">Leading Organizations, Driving Success</p>
+                        <p class="discipline-card__description">Discover programs in management, marketing, finance, and
+                            human resources that align with global business standards and professional body
+                            requirements.</p>
+                    </div>
+                </div>
+                <!-- Early Childhood -->
+                <div class="discipline-card animate-on-scroll">
+                    <div class="discipline-card__image" style="background-image: url('images/education.png');"></div>
+                    <div class="discipline-card__overlay"></div>
+                    <div class="discipline-card__content">
+                        <div class="discipline-card__icon">
+                            <i class="fas fa-child-reaching"></i>
+                        </div>
+                        <h3 class="discipline-card__title">Early Childhood Education</h3>
+                        <p class="discipline-card__tagline">Inspiring the Next Generation</p>
+                        <p class="discipline-card__description">Explore qualifications that prepare educators to make a
+                            meaningful impact on young learners through evidence-based teaching methodologies and child
+                            development frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="navbar__logo" style="margin-bottom:16px;">
+                        <img src="images/logo_shield_clean.png" alt="ISD Campus Shield" class="logo-shield-img-footer">
+                        <div class="logo-text-group">
+                            <span class="logo-title footer-title">ISD CAMPUS</span>
+                            <span class="logo-slogan footer-slogan">CERTIFICATIONS &bull; HND &bull; DEGREES</span>
+                        </div>
+                    </div>
+                    <p>Your trusted partner in navigating academic qualifications, international degree pathways, and
+                        career-focused education opportunities.</p>
+                </div>
+                <div class="footer__column">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="programs.html">Programs</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer__column">
+                    <h4>Programs</h4>
+                    <a href="programs.html">Qualifications</a>
+                    <a href="programs.html#disciplines">Disciplines</a>
+                    <a href="about.html#pathways">Pathways</a>
+                    <a href="about.html#accreditation">Accreditation</a>
+                </div>
+                <div class="footer__column">
+                    <h4>Contact</h4>
+                    <a href="contact.html"><i class="fas fa-envelope"></i> info@isdcampus.com</a>
+                    <a href="contact.html"><i class="fas fa-phone"></i> +94 11 234 5678</a>
+                    <a href="contact.html"><i class="fas fa-location-dot"></i> Colombo, Sri Lanka</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 ISD Campus. All rights reserved.</p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gemini AI Chat Widget -->
+    <div id="gemini-chat-toggle" class="chat-toggle-btn">
+        <i class="fa-solid fa-robot"></i>
+        <span>AI Assistant</span>
+    </div>
+
+    <div id="gemini-chat-window" class="chat-window hidden">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Gemini AI Assistant</span>
+            </div>
+            <button id="chat-close-btn" class="chat-close">&times;</button>
+        </div>
+        <div id="chat-messages" class="chat-messages">
+            <div class="message bot-message">
+                Hello! I am your AI Assistant powered by Gemini. Ask me anything about our programs or courses!
+            </div>
+        </div>
+        <form id="chat-form" class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask Gemini..." autocomplete="off" required />
+            <button type="submit" id="chat-send-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
